@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(146,145,208,1) 26%, rgba(0,212,255,1) 90%);
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.card {
+    background: #F8F8F8;
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+
+}
+
+.person {
+    display: flex;
+    align-items: flex-start;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__name {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.person__photo {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.person__position {
+    color: #545454;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.person__special {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.person__link {
+    color: #E20613;
+    text-decoration: none;
+
+}
